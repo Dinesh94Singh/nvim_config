@@ -34,3 +34,5 @@ require('lazy').setup {
   require 'plugins.lint',
   require 'plugins.mini',
 }
+
+require 'core.terminal'
