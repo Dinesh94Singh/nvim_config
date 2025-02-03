@@ -26,4 +26,11 @@ require('lazy').setup {
   require 'plugins.indent-blankline',
   require 'plugins.misc',
   require 'plugins.comment',
+  require 'plugins.autoformat',
+  require 'plugins.harpoon',
+  require 'plugins.autopairs',
+  require 'plugins.debug',
+  require 'plugins.indent-line',
+  require 'plugins.lint',
+  require 'plugins.mini',
 }
