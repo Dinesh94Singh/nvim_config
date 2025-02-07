@@ -76,6 +76,14 @@ return {
       end,
       desc = 'Debug: See last session result.',
     },
+    -- Evaluate Expression
+    {
+      '<F9>',
+      function()
+        require('dapui').eval()
+      end,
+      desc = 'Debug: Evaluate expression',
+    },
   },
   config = function()
     local dap = require 'dap'

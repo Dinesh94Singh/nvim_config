@@ -14,4 +14,12 @@ return {
     -- You can configure highlights by doing something like:
     vim.cmd.hi 'Comment gui=none'
   end,
+  config = function()
+    require('tokyonight').setup {
+      styles = {
+        comments = { italic = false },
+        keywords = { italic = false },
+      },
+    }
+  end,
 }
